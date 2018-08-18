@@ -1,0 +1,85 @@
+/* --------------------------
+Web Fonts
+--------------------------- */
+@font-face {
+    font-family: 'Atmosphere';
+    src: url("../fonts/AtmosphereRegular.ttf") format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VeteranTypewriter';
+    src: url("../fonts/VeteranTypewriter.ttf") format("truetype");
+}
+/* --------------------------
+ General Styles
+--------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+/* html {
+    background-color: #fff88f;
+} */
+
+body {
+    font-size: 1rem;
+    margin: 0
+}
+
+header {
+    max-width: 100%;
+    height: auto;
+    background-image: linear-gradient(0deg, #fff, transparent),
+                      url('../img/theheadercanvas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Atmosphere';
+    font-style: normal;
+    font-weight: 100;
+    color: #82bfbb;
+    font-size: 2.618rem;
+    margin: 0;
+    padding-top: 5%; 
+
+   
+}
+
+main {
+    margin-top: 2em;
+}
+
+/* --------------------------
+  Media Queries
+--------------------------- */
+
+@media (min-width: 769px) {
+    /* html {
+        background-color: bisque
+    } */
+    
+    .title {
+        font-size: 4.236rem;
+        margin: 0;
+        padding-top: 5%; 
+
+    }
+}
+@media (min-width: 1080px) {
+    /* html {
+        background-color: azure
+    } */
+
+
+    .title {
+        font-size: 6.854rem;
+        margin: 0;
+        padding-top: 5%; 
+
+    }
+
+    }

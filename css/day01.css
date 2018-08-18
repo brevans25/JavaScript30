@@ -1,0 +1,151 @@
+
+/* --------------------------
+ General Styles
+--------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+.flex-container-1 {
+    display: flex;
+    /* border: 2px solid #758; */
+    height: calc(100vh-200px);
+    width: 85%;
+    margin: 3% auto;
+
+}
+
+.flex-container-1 img {
+    max-width: 450px;
+    max-height: 500px;
+}
+
+.flex-container-1 p {
+    flex-grow: 1;
+    margin-left: 2%;
+    font-family: 'VeteranTypewriter';
+    font-size: 1.618rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: left;
+    color: #82bfbb;
+}
+
+p + p {
+    text-indent: 2em;
+}
+
+.flex-container-2 {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 85%;
+    margin: 3% auto;
+    margin-bottom: 0;
+
+}
+
+.flex-container-2 img {
+    max-width: 450px;
+    max-height: 500px;
+}
+
+.paragraphs {
+    font-family: 'VeteranTypewriter';
+    font-size: 1.618rem;
+    width: 40%;
+    margin-right:5%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: left;
+    color: #82bfbb;
+}
+
+.image {
+    align-self: center;
+}
+
+.links  {
+    text-decoration: none;
+    color: #C277B1;
+}
+
+.links:hover {
+    color: #EEC3F1;
+}
+.home {
+    font-family: "Atmosphere";
+    font-size: 2.618rem;
+    text-decoration: none;
+    color: #C277B1;
+    margin: 0 auto;
+    padding: 15%;
+}
+
+.home:hover {
+    color: #EEC3F1;
+}
+
+.color {
+    color: #47C1A0;
+}
+
+.bird-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.bird-card {
+   display: flex;
+   border: 1px solid #d4d4d4;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+   align-content: center;
+   max-width: 250px;
+   max-height: 250px;
+   margin: 0 auto;
+}
+
+.bird-card-illustration {
+    position: relative;
+    min-height: 180px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.bird-card-illustration img {
+    max-height: 150px;
+    max-width: 90%;
+    -webkit-user-select: none;
+    user-select: none;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+figcaption {
+    color: #82bfbb;
+    font-family: 'VeteranTypewriter';
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0 12.5px 0;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 5px;
+    margin: 0 10px;
+    padding-top: 30px;
+}
+
+.main-footer {
+    height: 25px;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
