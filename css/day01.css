@@ -144,7 +144,15 @@ figcaption {
     font-size: 12px;
 }
 
+.key {
+    transition: all 0.07s;
+}
 
+.playing  {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 
 @media only screen and (min-width: 768px) {
 
