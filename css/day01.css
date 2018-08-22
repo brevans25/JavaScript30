@@ -51,13 +51,8 @@ p + p {
 }
 
 .paragraphs {
-    font-family: 'VeteranTypewriter';
-    font-size: 1.618rem;
     width: 40%;
     margin-right:5%;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    text-align: left;
     color: #82bfbb;
 }
 

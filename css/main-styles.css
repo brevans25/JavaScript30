@@ -44,9 +44,15 @@ header {
     color: #82bfbb;
     font-size: 2.618rem;
     margin: 0;
-    padding-top: 5%; 
+    padding-top: 5%;   
+}
 
-   
+.paragraphs {
+    font-family: 'VeteranTypewriter';
+    font-size: 1.618rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 main {
